@@ -1,3 +1,6 @@
+# Unreleased
+- [feature] PLACEHOLDER: Add `FIRFilter` and `whereFilter(_:)`.
+
 # 10.0.0
 - [feature] Added `Query.count()`, which fetches the number of documents in the
   result set without actually downloading the documents (#10246).
