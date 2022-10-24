@@ -511,9 +511,10 @@ case "$product-$platform-$method" in
       build
     ;;
 
-  Sessions-iOS-integration)
+  Sessions-*-integration)
     # Perform "pod install" to install the relevant dependencies
-    ./FirebaseSessions/generate_testapp.sh
+    pod_gen FirebaseSessions.podspec --platforms=ios --clean
+    cd FirebaseSessions/Tests/TestApp; pod install; cd -
 
     # Run E2E Integration Tests for Autopush.
     RunXcodebuild \
