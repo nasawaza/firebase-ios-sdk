@@ -11,6 +11,8 @@
 		A0222F24C5D449CF0A43FDD7 /* Pods_AppQualityDevAppWatchOS_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E45D9F3074AFEE870882CC6 /* Pods_AppQualityDevAppWatchOS_WatchKit_Extension.framework */; };
 		CF94D8332900B56400308FF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF68F14228E4A34B00753C7E /* GoogleService-Info.plist */; };
 		CF94D8342900B5E800308FF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF68F14228E4A34B00753C7E /* GoogleService-Info.plist */; };
+		CF94D83D29070DF600308FF7 /* AppQualityDevAppUITests__iOS_.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D83C29070DF600308FF7 /* AppQualityDevAppUITests__iOS_.swift */; };
+		CF94D83F29070DF600308FF7 /* AppQualityDevAppUITests__iOS_LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94D83E29070DF600308FF7 /* AppQualityDevAppUITests__iOS_LaunchTests.swift */; };
 		CFF5AB1129004E38004A35A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF5AB1029004E38004A35A0 /* Assets.xcassets */; };
 		CFF5AB1729004E39004A35A0 /* AppQualityDevAppWatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CFF5AB1629004E39004A35A0 /* AppQualityDevAppWatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CFF5AB1C29004E39004A35A0 /* AppQualityDevAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF5AB1B29004E39004A35A0 /* AppQualityDevAppApp.swift */; };
@@ -37,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CF94D84029070DF600308FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF33DA5F28E4941100F7B88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF33DA6A28E4941400F7B88B;
+			remoteInfo = "AppQualityDevApp (iOS)";
+		};
 		CFF5AB1829004E39004A35A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DF33DA5F28E4941100F7B88B /* Project object */;
@@ -98,6 +107,9 @@
 		717BB1A07D505205E6624565 /* Pods-AppQualityDevApp (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppQualityDevApp (macOS).release.xcconfig"; path = "Target Support Files/Pods-AppQualityDevApp (macOS)/Pods-AppQualityDevApp (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		8E45D9F3074AFEE870882CC6 /* Pods_AppQualityDevAppWatchOS_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppQualityDevAppWatchOS_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF451CCC16240EE7C1CAE92D /* Pods-AppQualityDevApp (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppQualityDevApp (iOS).release.xcconfig"; path = "Target Support Files/Pods-AppQualityDevApp (iOS)/Pods-AppQualityDevApp (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		CF94D83A29070DF600308FF7 /* AppQualityDevAppUITests (iOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppQualityDevAppUITests (iOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF94D83C29070DF600308FF7 /* AppQualityDevAppUITests__iOS_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppQualityDevAppUITests__iOS_.swift; sourceTree = "<group>"; };
+		CF94D83E29070DF600308FF7 /* AppQualityDevAppUITests__iOS_LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppQualityDevAppUITests__iOS_LaunchTests.swift; sourceTree = "<group>"; };
 		CFF5AB0E29004E37004A35A0 /* AppQualityDevAppWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppQualityDevAppWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF5AB1029004E38004A35A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFF5AB1629004E39004A35A0 /* AppQualityDevAppWatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppQualityDevAppWatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +143,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		B8B1E22B46956E5DE21C2149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF94D83729070DF600308FF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,6 +220,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF94D83B29070DF600308FF7 /* AppQualityDevAppUITests (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				CF94D83C29070DF600308FF7 /* AppQualityDevAppUITests__iOS_.swift */,
+				CF94D83E29070DF600308FF7 /* AppQualityDevAppUITests__iOS_LaunchTests.swift */,
+			);
+			path = "AppQualityDevAppUITests (iOS)";
+			sourceTree = "<group>";
+		};
 		CFF5AB0F29004E37004A35A0 /* AppQualityDevAppWatchOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +270,7 @@
 				DF33DA8728E4941400F7B88B /* Tests macOS */,
 				CFF5AB0F29004E37004A35A0 /* AppQualityDevAppWatchOS */,
 				CFF5AB1A29004E39004A35A0 /* AppQualityDevAppWatchOS WatchKit Extension */,
+				CF94D83B29070DF600308FF7 /* AppQualityDevAppUITests (iOS) */,
 				DF33DA6C28E4941400F7B88B /* Products */,
 				B331F12D6E48AEAE498652CE /* Pods */,
 				C4EA09EA494417D4E7353C93 /* Frameworks */,
@@ -268,6 +297,7 @@
 				DF33DA8428E4941400F7B88B /* Tests macOS.xctest */,
 				CFF5AB0E29004E37004A35A0 /* AppQualityDevAppWatchOS.app */,
 				CFF5AB1629004E39004A35A0 /* AppQualityDevAppWatchOS WatchKit Extension.appex */,
+				CF94D83A29070DF600308FF7 /* AppQualityDevAppUITests (iOS).xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,6 +331,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CF94D83929070DF600308FF7 /* AppQualityDevAppUITests (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF94D84429070DF600308FF7 /* Build configuration list for PBXNativeTarget "AppQualityDevAppUITests (iOS)" */;
+			buildPhases = (
+				CF94D83629070DF600308FF7 /* Sources */,
+				CF94D83729070DF600308FF7 /* Frameworks */,
+				CF94D83829070DF600308FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF94D84129070DF600308FF7 /* PBXTargetDependency */,
+			);
+			name = "AppQualityDevAppUITests (iOS)";
+			productName = "AppQualityDevAppUITests (iOS)";
+			productReference = CF94D83A29070DF600308FF7 /* AppQualityDevAppUITests (iOS).xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CFF5AB0D29004E37004A35A0 /* AppQualityDevAppWatchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF5AB3629004E3A004A35A0 /* Build configuration list for PBXNativeTarget "AppQualityDevAppWatchOS" */;
@@ -421,9 +469,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					CF94D83929070DF600308FF7 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DF33DA6A28E4941400F7B88B;
+					};
 					CFF5AB0D29004E37004A35A0 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -465,11 +517,19 @@
 				DF33DA8328E4941400F7B88B /* Tests macOS */,
 				CFF5AB0D29004E37004A35A0 /* AppQualityDevAppWatchOS */,
 				CFF5AB1529004E39004A35A0 /* AppQualityDevAppWatchOS WatchKit Extension */,
+				CF94D83929070DF600308FF7 /* AppQualityDevAppUITests (iOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CF94D83829070DF600308FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFF5AB0C29004E37004A35A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -644,6 +704,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CF94D83629070DF600308FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF94D83F29070DF600308FF7 /* AppQualityDevAppUITests__iOS_LaunchTests.swift in Sources */,
+				CF94D83D29070DF600308FF7 /* AppQualityDevAppUITests__iOS_.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFF5AB1229004E39004A35A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -695,6 +764,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CF94D84129070DF600308FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF33DA6A28E4941400F7B88B /* AppQualityDevApp (iOS) */;
+			targetProxy = CF94D84029070DF600308FF7 /* PBXContainerItemProxy */;
+		};
 		CFF5AB1929004E39004A35A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CFF5AB1529004E39004A35A0 /* AppQualityDevAppWatchOS WatchKit Extension */;
@@ -718,6 +792,48 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		CF94D84229070DF600308FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.AppQualityDevAppUITests--iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppQualityDevApp (iOS)";
+			};
+			name = Debug;
+		};
+		CF94D84329070DF600308FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.AppQualityDevAppUITests--iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppQualityDevApp (iOS)";
+			};
+			name = Release;
+		};
 		CFF5AB3029004E3A004A35A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1142,6 +1258,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CF94D84429070DF600308FF7 /* Build configuration list for PBXNativeTarget "AppQualityDevAppUITests (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF94D84229070DF600308FF7 /* Debug */,
+				CF94D84329070DF600308FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CFF5AB3529004E3A004A35A0 /* Build configuration list for PBXNativeTarget "AppQualityDevAppWatchOS WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

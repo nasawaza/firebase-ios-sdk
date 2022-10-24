@@ -38,6 +38,17 @@
                ReferencedContainer = "container:AppQualityDevApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CF94D83929070DF600308FF7"
+               BuildableName = "AppQualityDevAppUITests (iOS).xctest"
+               BlueprintName = "AppQualityDevAppUITests (iOS)"
+               ReferencedContainer = "container:AppQualityDevApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
