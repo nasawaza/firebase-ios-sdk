@@ -39,6 +39,7 @@ product can be one of:
   MLModelDownloaderSample
   RemoteConfig
   RemoteConfigSample
+  Sessions
   Storage
   SymbolCollision
   GoogleDataTransport
@@ -508,6 +509,21 @@ case "$product-$platform-$method" in
       -scheme "RemoteConfigSampleApp" \
       "${xcb_flags[@]}" \
       build
+    ;;
+
+  Sessions-*-integration)
+    # Perform "pod install" to install the relevant dependencies
+    ./FirebaseSessions/generate_testapp.sh
+
+    # Run E2E Integration Tests for Autopush.
+    RunXcodebuild \
+      -workspace 'FirebaseSessions/Tests/TestApp/AppQualityDevApp.xcworkspace' \
+      -scheme "AppQualityDevAppUITest (iOS)" \
+      FPR_AUTOPUSH_ENV=1 \
+      "${ios_flags[@]}" \
+      "${xcb_flags[@]}" \
+      build \
+      test
     ;;
 
   Storage-*-xcodebuild)
