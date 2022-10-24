@@ -511,7 +511,7 @@ case "$product-$platform-$method" in
       build
     ;;
 
-  Sessions-*-integration)
+  Sessions-iOS-integration)
     # Perform "pod install" to install the relevant dependencies
     ./FirebaseSessions/generate_testapp.sh
 
